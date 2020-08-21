@@ -2674,7 +2674,7 @@
         <param index="6">Reserved</param>
         <param index="7">Reserved</param>
       </entry>
-      <!-- transfered from ardupilotmega.xml; ID is 42600 but this is still a payload command -->
+      <!-- from ardupilotmega.xml (hence ID is in that range) -->
       <entry value="42600" name="MAV_CMD_DO_WINCH">
         <description>Command to operate winch.</description>
         <param index="1" label="Instance" minValue="1" increment="1">Winch instance number.</param>
