@@ -19,7 +19,7 @@
     </enum>
     <!-- ardupilot specific MAV_CMD_* commands -->
     <enum name="MAV_CMD">
-      <!-- 211 used by common.xml -->
+      <!-- 211 MAV_CMD_DO_GRIPPER moved to common.xml -->
       <entry value="212" name="MAV_CMD_DO_AUTOTUNE_ENABLE">
         <description>Enable/disable autotune.</description>
         <param index="1">Enable (1: enable, 0:disable).</param>
@@ -222,7 +222,7 @@
         <param index="6">Magic number.</param>
         <param index="7">Magic number.</param>
       </entry>
-      <!-- 42600 used by common.xml -->
+      <!-- 42600 MAV_CMD_DO_WINCH moved to common.xml -->
       <entry value="42650" name="MAV_CMD_FLASH_BOOTLOADER">
         <description>Update the bootloader</description>
         <param index="1">Empty</param>
